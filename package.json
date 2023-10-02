@@ -1,0 +1,22 @@
+{
+  "name": "read-console-input",
+  "version": "0.0.1",
+  "description": "Simple and easy to use syncrhonous readline for Node.js that supports UTF-8 input.",
+  "main": "index.js",
+  "module": "index.js",
+  "keywords": [
+    "readline",
+    "prompt",
+    "sync",
+    "syncrhonous"
+  ],
+  "author": "Jimi Ahlgren",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahlgren/read-console-input.git"
+  },
+  "dependencies": {
+    "deasync": "^0.1.28"
+  }
+}
