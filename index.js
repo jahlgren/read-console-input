@@ -1,4 +1,5 @@
-const readline = require('readline');
+import nodeReadLine from 'readline';
+import deasync from 'deasync';
 
 /**
  * Read input form the console.
@@ -6,7 +7,7 @@ const readline = require('readline');
  * @returns {string} input
  */
 export default function readline(question) {
-  const rl = readline.createInterface({
+  const rl = nodeReadLine.createInterface({
     input: process.stdin,
     output: process.stdout
   });
@@ -15,6 +16,6 @@ export default function readline(question) {
     input = answer;
     rl.close();
   });
-  require('deasync').loopWhile(() => typeof input === 'undefined');
+  deasync.loopWhile(() => typeof input === 'undefined');
   return input;
 }
