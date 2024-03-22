@@ -1,6 +1,6 @@
 {
   "name": "read-console-input",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Simple and easy to use syncrhonous readline for Node.js that supports UTF-8 input.",
   "type": "module",
   "main": "index.js",
